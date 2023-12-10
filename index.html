@@ -5,21 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PET - Itapajé</title>
     <link rel="stylesheet" href="./css/style-global.css">
+    <link rel="stylesheet" href="./js/script-global.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
-<body>
+<body onresize="size()">
     <nav>
-
+        <div>
+            <img src="./img/logo_pet.png" alt="Logo do PET">
+            <label class="logo">PET - ITAPAJE</label>
+        </div>
+        <ul id="itens">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">Cursos</a></li>
+            <li><a href="">Contatos</a></li>
+        </ul>
     </nav>
+    
     <main>
         <div class="img-principal">
             <img src="./img/foto_pet.jpeg" alt="Foto de todos os membros do PET">
         </div>
         <section>
             <h2>Notícias e Atualizações</h2>
+            <section class="container">           
+                <div class="card-info">
+                    <figure>
+                        <img src="./img/logo_pet.png" alt="Logo do PET">
+                    </figure>
+                    <h1>Clube do Livro</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam corrupti delectus doloribus omnis, suscipit non ex veritatis nesciunt neque in vel illo illum ut necessitatibus, autem excepturi odio incidunt? Aperiam?</p>
+                </div>
+                <div class="card-info">
+                   <figure>
+                    <img src="./img/logo_pet.png" alt="Logo do PET">
+                   </figure>
+                    <h1>Oficina de Programação</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora molestiae fugit suscipit repudiandae, quam ut ipsam quaerat rem, esse perferendis asperiores. Quo debitis eligendi, explicabo soluta sunt tempora ipsa quas.</p>
+                </div>
+                <div class="card-info">
+                    <figure>
+                        <img src="./img/logo_pet.png" alt="Logo do PET">
+                    </figure>
+                    <h1>Olímpiadas de Futsal e Vôlei</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil enim tempore optio sed. Eaque numquam ipsum aperiam, error assumenda possimus, dolore, nam hic soluta esse nobis tenetur quod similique consectetur.</p>
+                </div>
+                <div class="card-info">
+                    <figure>
+                        <img src="./img/logo_pet.png" alt="Logo do PET">
+                    </figure>
+                    <h1>Projeto 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi labore, quod deleniti beatae facere quia sapiente atque, eveniet repellendus, suscipit veritatis nesciunt veniam ipsa saepe tenetur ut doloremque magni.</p>
+                </div>
+            </section>
         </section>
+
+        <!--buttons responsives initial-->
+        <section>
+            <section class="informacoes">
+                <div>
+                    <p>Cursos</p>
+                </div>
+                <div>
+                    <p>Bolsas e Auxílios</p>
+                </div>
+                <div>
+                    <p>Centro Acadêmico</p>
+                </div>
+                <div>
+                    <p>Horas</p>
+                </div>
+            </section>
+        </section>
+        <!--buttons responsives end-->
+
         <!--Carousel Cards initial-->
+        <h2>Bolsistas e Tutor do PET</h2>
         <section>
             <section class="slider_container">
                 <div class="container">
@@ -68,24 +129,6 @@
                 </div>
             </section>
         <!--Carousel Cards end-->
-
-        </section>
-
-        <section>
-            <section class="informacoes">
-                <div>
-                    <p>Cursos</p>
-                </div>
-                <div>
-                    <p>Bolsas e Auxílios</p>
-                </div>
-                <div>
-                    <p>Centro Acadêmico</p>
-                </div>
-                <div>
-                    <p>Horas</p>
-                </div>
-            </section>
         </section>
     </main>
 

@@ -4,19 +4,120 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: var(--font-family);
 }
 
 :root{
     --font-family: 'Roboto', sans-serif;;
-    --cor-primary: #EFEFEF;
+    --cor-primary: #ffffff;
     --cor-secundary: #263A74;
     --cor-terciary: #FDAB21;
+}
+
+/****** Navbar initial ******/
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    background-color: var(--cor-primary);
+    border-bottom: 3px solid #04B2D9;
+}
+
+nav > div{
+    display: flex;
+    margin-left: 20px;
+}
+
+nav > div > img{
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+}
+
+label.logo{
+    color: #04B2D9;
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+nav > ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav > ul > li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav > ul > li > a{
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+    color: #04B2D9;
+    transition-duration: .2s;
+}
+
+a.active{
+    color: #04B2D9;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #04B2D9;
+}
+
+.menu{
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
 .img-principal > img{
     width: 100%;
     height: 700px;
+}
+
+/****** Cards informativos ******/
+
+section.container{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    align-self: center;
+    justify-content: center;
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+.card-info > figure{
+    background-color: #263A74;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-info > figure > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card-info{
+    background-color: #c7c7c7;
+    width: 220px;
+    border-radius: 3px;
+}
+
+.card-info > p{
+    padding: 10px;
 }
 
 /****** Swiper Card initial ******/
