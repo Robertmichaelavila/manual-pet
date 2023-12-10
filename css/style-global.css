@@ -10,7 +10,7 @@
 
 :root{
     --font-family: 'Roboto', sans-serif;;
-    --cor-primary: #ffffff;
+    --cor-primary: #dadada;
     --cor-secundary: #263A74;
     --cor-terciary: #FDAB21;
 }
@@ -94,7 +94,7 @@ section.container{
     align-self: center;
     justify-content: center;
     display: grid;
-    gap: 80px;
+    gap: 40px;
     grid-template-columns: 200px 200px 200px 200px;
 }
 
@@ -111,9 +111,10 @@ section.container{
 }
 
 .card-info{
-    background-color: #c7c7c7;
+    background-color: #fff;
     width: 220px;
     border-radius: 3px;
+    box-shadow: 2px 5px 6px 1px rgba(0, 0, 0, 0.52);
 }
 
 .card-info > p{
@@ -261,4 +262,44 @@ footer > p{
     font-weight: 700;
     text-align: center;
     padding: 10px;
+}
+
+/****** MediaQuerie ******/
+
+
+@media screen and (max-width: 600px){
+    .informacoes{
+        grid-template-columns: 200px;
+    }
+    section.container{
+        grid-template-columns: 200px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .informacoes{
+        grid-template-columns: 200px 200px;
+    }
+    section.container{
+        grid-template-columns: 200px 200px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .informacoes{
+        grid-template-columns: 200px 200px 200px;
+    }
+    section.container{
+        grid-template-columns: 200px 200px 200px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .atualizacao{
+        grid-template-columns: 200px 200px 200px 200px;
+    }
+    section.container{
+        grid-template-columns: 200px 200px 200px 200px;
+    }
 }
