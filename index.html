@@ -5,10 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PET - Itapajé</title>
     <link rel="stylesheet" href="./css/style-global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
-    <div>
-        <p>Fazel</p>
-    </div>
+    <nav>
+
+    </nav>
+    <main>
+        <div class="img-principal">
+            <img src="./img/foto_pet.jpeg" alt="Foto de todos os membros do PET">
+        </div>
+        <section>
+            <h2>Notícias e Atualizações</h2>
+        </section>
+        <!--Carousel Cards initial-->
+        <section>
+            <section class="slider_container">
+                <div class="container">
+                    <div class="swiper card_slider">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./img/UFC.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./_imagens/UFC.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./_imagens/UFC.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./_imagens/UFC.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./_imagens/UFC.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./_imagens/UFC.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./_imagens/UFC.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+        <!--Carousel Cards end-->
+
+        </section>
+
+        <section>
+            <section class="informacoes">
+                <div>
+                    <p>Cursos</p>
+                </div>
+                <div>
+                    <p>Bolsas e Auxílios</p>
+                </div>
+                <div>
+                    <p>Centro Acadêmico</p>
+                </div>
+                <div>
+                    <p>Horas</p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="">FAQ </a></li>
+            <li><a href="">Multimídia</a></li>
+            <li><a href="">Download</a></li>
+            <li><a href="">Redes Sociais</a></li>
+        </ul>
+        <p>&copy;UFC - PET</p>
+    </footer>
+
+    <script>
+        var swiper = new Swiper(".card_slider", {
+        spaceBetween: 30,
+        loop: true,
+        speed: 1000,
+        autoplay: {
+            delay: 2000,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            480: {
+                slidesPerView: 2,
+            }, 
+            768: {
+                slidesPerView: 3,
+            },
+            1200: {
+                slidesPerView: 4,
+            },
+        },
+    });
+    </script>
 </body>
 </html>
