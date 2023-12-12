@@ -73,18 +73,19 @@ main{
 
 
 .coordenadores{
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    align-self: center;
+    transition-duration: .5s;
 }
 
 .img-coordenador{
     width: 400px;
-    margin: 0 10px;
 }
 
 .coordenadores > div{
-    width: 500px;
-    margin: 0 10px;
+    width: 600px;
+    margin: auto;
+    padding: 0 10px;
 }
 
 .coordenadores > div > h1{
@@ -95,4 +96,19 @@ main{
     color: #000000;
     text-align: justify;
     line-height: 25px;
+}
+
+@media screen and (min-width: 958px) and (max-width: 12000px) {
+    .coordenadores{
+        display: flex;
+        justify-content: center;
+        background-color: #263A74;
+        transition-duration: .5s;
+    }
+    .coordenadores > div{
+        width: 500px;
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
 }
