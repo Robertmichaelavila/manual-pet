@@ -26,6 +26,7 @@ main{
 
 #informacoes{
     width: 100%;
+    margin-bottom: 20px;
 }
 
 #informacoes > ul{
@@ -35,7 +36,14 @@ main{
 
 #informacoes > ul > li{
     color: #263A74;
-    padding: 10px 0;
+    padding: 15px 0;
+    line-height: 25px;
+}
+
+#informacoes > ul > li > p{
+    color: #263A74;
+    font-size: 1.3em;
+    font-weight: 500;
     line-height: 25px;
 }
 
@@ -49,11 +57,25 @@ main{
     padding: 10px 0;
 }
 
+.card-profession > ul{
+    width: 100%;
+    text-align: center;
+}
+
 .card-profession > ul > li{
     color: #fff;
-    padding: 10px 0;
+    padding: 15px 0;
     list-style: none;
-}    
+    text-align: justify;
+}
+
+.card-profession > ul > li > p{
+    display: inline;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 1.3em;
+    font-weight: 500;
+}
 
 .check{
     margin-right: 10px;
@@ -67,11 +89,15 @@ main{
 
 #texto > p{
     color: #263A74;
+    font-size: 1.3em;
+    font-weight: 500;
     line-height: 25px;
 }
 
-
-
+span{
+    margin-right: 10px;
+    transform: translateY(5px);
+}
 
 .coordenadores{
     width: 100%;
@@ -80,13 +106,13 @@ main{
 }
 
 .img-coordenador{
-    width: 400px;
+    width: 450px;
 }
 
 .coordenadores > div{
-    width: 600px;
+    width: 100%;
     margin: auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .coordenadores > div > h1{
@@ -96,6 +122,8 @@ main{
 .coordenadores > div > p{
     color: #000000;
     text-align: justify;
+    font-size: 1.2em;
+    font-weight: 700;
     line-height: 25px;
 }
 
