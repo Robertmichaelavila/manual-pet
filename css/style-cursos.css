@@ -31,7 +31,6 @@ main{
 
 #informacoes > ul{
     padding: 0 30px;
-    text-align: justify;
 }
 
 #informacoes > ul > li{
@@ -134,7 +133,7 @@ span{
         justify-content: center;
         transition-duration: .5s;
     }
-    
+
     .coordenadores > div{
         width: 500px;
         margin: 0;
