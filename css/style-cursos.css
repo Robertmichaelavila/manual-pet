@@ -31,6 +31,7 @@ main{
 
 #informacoes > ul{
     padding: 0 30px;
+    text-align: justify;
 }
 
 #informacoes > ul > li{
@@ -65,11 +66,11 @@ main{
     color: #fff;
     padding: 15px 0;
     list-style: none;
+    display: flex;
     text-align: justify;
 }
 
 .card-profession > ul > li > p{
-    display: inline;
     color: #fff;
     padding: 10px 0;
     font-size: 1.3em;
@@ -90,7 +91,8 @@ main{
     color: #263A74;
     font-size: 1.3em;
     font-weight: 500;
-    line-height: 25px;
+    line-height: 30px;
+    margin: 10px 0;
 }
 
 span{
