@@ -124,6 +124,7 @@ span{
     text-align: justify;
     font-size: 1.2em;
     font-weight: 700;
+    display:flex;
     line-height: 25px;
 }
 
@@ -133,6 +134,7 @@ span{
         justify-content: center;
         transition-duration: .5s;
     }
+    
     .coordenadores > div{
         width: 500px;
         margin: 0;
