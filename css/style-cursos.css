@@ -95,6 +95,7 @@ main{
 
 .coordenadores > div > p{
     color: #000000;
+    display:flex;
     text-align: justify;
     line-height: 25px;
 }
