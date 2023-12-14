@@ -8,7 +8,7 @@
     font-family: var(--font-family);
 }
 
-/****** main initial ******/
+/****** main, section Cursos ******/
 
 main{
     width: 100%;
@@ -21,16 +21,20 @@ main{
     margin-bottom: 20px;
 }
 
+/****** Header ******/
+
 header{
     margin: 20px 0;
 }
 
-#titulo{
+header > #titulo{
     color: #263A74;
     font-size: 2em;
     text-align: center;
     margin:  20px 0;
 }
+
+/****** Div Informacoes ******/
 
 #informacoes{
     width: 100%;
@@ -54,6 +58,8 @@ header{
     font-weight: 500;
     line-height: 25px;
 }
+
+/****** Section Card-profession ******/
 
 .card-profession{
     padding: 10px;
@@ -91,6 +97,13 @@ header{
     transform: translateY(5px);
 }
 
+span{
+    margin-right: 10px;
+    transform: translateY(5px);
+}
+
+/****** Div Texto ******/
+
 #texto{
     padding: 20px 25px;
     text-align: justify;
@@ -104,10 +117,8 @@ header{
     margin: 10px 0;
 }
 
-span{
-    margin-right: 10px;
-    transform: translateY(5px);
-}
+
+/****** Section Coordenadores ******/
 
 .coordenadores{
     width: 100%;
@@ -119,12 +130,15 @@ span{
     width: 450px;
 }
 
+.coordenadores{
+    padding: 0 10px;
+}
+
 .coordenadores > div{
     width: 100%;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 10px 10px 10px;
     border-radius: 10px;
-    padding-bottom: 10px;
     background-color: #263A74;
     box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, 0.534);
 }
@@ -143,6 +157,8 @@ span{
     display:flex;
     line-height: 25px;
 }
+
+/****** MediaQueries ******/
 
 @media screen and (min-width: 958px) and (max-width: 12000px) {
     .coordenadores{
