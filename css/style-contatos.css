@@ -134,6 +134,10 @@ textarea{
     transition-duration: .10s;
 }
 
+input{
+    border-radius: 5px;
+}
+
 /****** MediaQueries ******/
 
 @media screen and (min-width: 300px) and (max-width: 1000px){
@@ -145,18 +149,18 @@ textarea{
         transition-duration: .5s;
     }
     .partOne{
-        width: 450px;
+        width: 455px;
         transition-duration: .5s;
     }
     form{
-        width: 450px;
+        width: 455px;
         transition-duration: .5s;
     }
     #name{
-        margin: 15px;
+        margin: 20px;
     }
     .partTwo{
-        width: 450px;
+        width: 455px;
         transition-duration: .5s;
     }
 }
