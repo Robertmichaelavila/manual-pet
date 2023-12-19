@@ -12,6 +12,7 @@
 
 main{
     width: 100%;
+    margin-top: 120px;
     text-align: center;
 }
 
@@ -23,11 +24,11 @@ main{
 
 /****** Header ******/
 
-header{
+.titulo{
     margin: 20px 0;
 }
 
-header > #titulo{
+.titulo > h1{
     color: #263A74;
     font-size: 2em;
     text-align: center;

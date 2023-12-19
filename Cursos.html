@@ -8,27 +8,31 @@
     <link rel="stylesheet" href="./css/style-global.css">
     <link rel="stylesheet" href="./css/style-cursos.css">
     <link rel="stylesheet" href="./js/script-global.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <nav>
-        <div>
-            <img src="./img/logo_pet.png" alt="Logo do PET">
-            <label class="logo">PET - ITAPAJE</label>
-        </div>
-        <ul id="itens">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Cursos.html" class="active">Cursos</a></li>
-            <li><a href="Contatos.html">Contatos</a></li>
-        </ul>
-    </nav>
+    <header class="header">
+        <a href="index.html" class="logo">PET - ITAPAJE</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="Cursos.html">Cursos</a>
+            <a href="#">Bolsas e Auxílios</a>
+            <a href="#">Horas Complementares</a>
+            <a href="Contatos.html">Contatos</a>
+        </nav>
+    </header>
+    <div class="nav-bg"></div>
 
     <main>
         <!--first section initial-->
         <section class="cursos">
-            <header>
-                <h1 id="titulo">Análise e Desenvolvimento de Sistemas</h1>
-            </header>
+            <div class="titulo">
+                <h1>Análise e Desenvolvimento de Sistemas</h1>
+            </div>
             <div id="informacoes">
                 <ul>
                     <li><p>Turno: Diurno</p></li>
@@ -69,9 +73,9 @@
 
         <!--second section initial-->
         <section class="cursos">
-            <header>
-                <h1 id="titulo">Ciência de Dados</h1>
-            </header>
+            <div class="titulo">
+                <h1>Ciência de Dados</h1>
+            </div>
             <div id="informacoes">
                 <ul>
                     <li><p>Turno: Diurno</p></li>
@@ -114,9 +118,9 @@
 
         <!--third section initial-->
          <section class="cursos">
-            <header>
-                <h1 id="titulo">Segurança da Informação</h1>
-            </header>
+            <div class="titulo">
+                <h1>Segurança da Informação</h1>
+            </div>
             <div id="informacoes">
                 <ul>
                     <li><p>Turno: Diurno</p></li>
@@ -166,5 +170,7 @@
         </ul>
         <p>&copy;UFC - PET</p>
     </footer>
+
+    <script src="./js/script-global.js"></script>
 </body>
 </html>
