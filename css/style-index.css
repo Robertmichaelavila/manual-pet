@@ -3,10 +3,8 @@
 aside{
     width: 100%;
     display: flex;
-    padding-top: 85px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 15px;
+    margin-top: 70px;
+    padding: 15px;
     text-align: center;
     align-items: center;
     background-color: #263A74;
