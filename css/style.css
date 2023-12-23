@@ -1,0 +1,495 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primary: #263A74;
+    --cor-secundary: #FDAB21;
+    --cor-terciary: #EFEFEF;
+    --font-family: 'Roboto', sans-serif;;
+}
+
+html,body{
+    font-family: var(--font-family);
+    background-color: var(--cor-primary);
+}
+
+/* Header initial*/
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header > div{
+    text-align: center;
+    align-items: center;
+}
+
+header > div > h1,h2{
+    color: var(--cor-terciary);
+    text-align: center;
+    margin: 10px;
+}
+
+header > div > h2{
+    color: #bebebe;
+}
+
+/* Header - img */
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/* Nav initial */
+
+nav{
+    width: 100%;
+    background-color: var(--cor-secundary);
+}
+
+nav > ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav > ul > li{
+    font-size: 1.2em;
+    font-weight: 700;
+    list-style: none;
+    margin: 5px;
+}
+
+nav > ul > li > a{
+    color: var(--cor-terciary);
+    text-decoration: none;
+}
+
+/* #introdução inital */
+
+#introducao{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    background-color: var(--cor-terciary);
+    border-bottom: 2px solid var(--cor-secundary);
+}
+
+#introducao > img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+
+#introducao > p{
+    color: var(--cor-primary);
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 5px;
+}
+
+/* #cursos initial */
+
+#cursos{
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: var(--cor-terciary);
+    border-bottom: 2px solid var(--cor-secundary);
+}
+
+.titulo{
+    color: #172347;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sub-titulo > h1{
+    color: #172347;
+    font-size: 1.7em;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.informacoes-cursos{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.informacoes-cursos > ul{
+    padding: 0 30px;
+    text-align: justify;
+}
+
+.informacoes-cursos > ul > li{
+    color: #263A74;
+    padding: 15px 0;
+    line-height: 25px;
+}
+
+.informacoes-cursos > ul > li > p{
+    color: #263A74;
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.card-profession{
+    padding: 10px;
+    background-color: #263A74;
+}
+
+.card-profession > h1{
+    color: #fff;
+    font-size: 1.8em;
+    padding: 10px 0;
+}
+
+.card-profession > ul{
+    width: 100%;
+    text-align: center;
+}
+
+.card-profession > ul > li{
+    color: #fff;
+    padding: 15px 0;
+    list-style: none;
+    display: flex;
+    text-align: justify;
+}
+
+.card-profession > ul > li > p{
+    color: #fff;
+    padding: 10px 0;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.check{
+    margin-right: 10px;
+}
+
+.texto{
+    padding: 20px 25px;
+    text-align: justify;
+}
+
+.texto > p{
+    color: var(--cor-primary);
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.coordenadores{
+    width: 100%;
+    align-self: center;
+    margin-bottom: 20px;
+    transition-duration: .5s;
+}
+
+.img-coordenador{
+    width: 450px;
+}
+
+.coordenadores{
+    padding: 0 10px;
+}
+
+.coordenadores > div{
+    width: 100%;
+    margin: auto;
+    padding: 0 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #263A74;
+    box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, 0.534);
+}
+
+.coordenadores > div > h1{
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+
+.coordenadores > div > p{
+    color: #ffffff;
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: 700;
+    display:flex;
+    line-height: 25px;
+}
+
+/* #bolsas initial*/
+
+#bolsas{
+    padding: 20px;
+    background-color: var(--cor-terciary);
+}
+
+#bolsas > h1{
+    color: #172347;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#bolsas > img{
+    margin-right: 5px;
+}
+
+#bolsas > p{
+    color: #263A74;
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* #centro-academico initial */
+
+#centro-academico{
+    padding: 20px;
+}
+
+#centro-academico > h1{
+    color: var(--cor-terciary);
+}
+
+#centro-academico > p{
+    color: var(--cor-terciary);
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+}
+
+#informacoes-cursos-centro-academico{
+    width: 100%;
+    text-align: center;
+}
+
+.img-centro-academico{
+    width: 450px;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    transition-duration: .5s;
+}
+
+.cards > div > h1{
+    color: var(--cor-terciary);
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.cards > div > p{
+    color: var(--cor-terciary);
+    text-align: justify;
+    font-size: 1.1em;
+    font-weight: 700;
+    display:flex;
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+/* #horas initial*/
+
+#horas{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--cor-terciary);
+}
+
+#horas > h1{
+    color: #172347;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#horas > p{
+    color: #263A74;
+    font-size: 1.1em;
+    padding: 10px 10px 10px 30px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#horas > ul{
+    margin-left: 40px;
+}
+
+#horas > ul > li{
+    color: #263A74;
+    font-size: 1.1em;
+    padding: 5px 0;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#div-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#horas > #div-1 > ul{
+    margin-left: 30px;
+}
+
+#horas > #div-1 > ul > li{
+    color: #263A74;
+    font-size: 1.1em;
+    padding:0;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* #contatos initial */
+
+#contato{
+    width: 100%;
+    padding: 20px;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+/****** PartOne initial ******/
+
+.partOne{
+    width: 500px;
+    text-align: center;
+    transition-duration: .5s;
+}
+
+form{
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    transition-duration: .5s;
+    box-shadow: 2px 5px 6px 1px rgba(0, 0, 0, 0.52);
+}
+
+form > h1{
+    color: #263A74;
+    font-size: 1.1em;
+}
+
+form #area-name{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#name{
+    width: 190px;
+    height: 5px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#email{
+    display: block;
+    margin: auto;
+    width: 420px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    height: 5px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 420px;
+    border-radius: 5px;
+    margin: 15px 0;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    padding: 10px;
+}
+
+#submit{
+    width: 100px;
+    height: 40px;
+    color: var(--cor-terciary);
+    font-size: 0.9em;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    background-color: #263A74;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-color: #0f172c;
+    transition-duration: .5s;
+}
+
+input{
+    border-radius: 5px;
+}
+
+footer{
+    background-color: var(--cor-secundary);
+    padding: 10px;
+}
+
+footer > div{
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > div > ul{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+footer > div > ul > li{
+    list-style: none;
+    padding: 5px;
+}
+
+footer > div > ul > li > a{
+    color: var(--cor-primary);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+footer > div > ul > li > a:hover{
+    color: var(--cor-terciary);
+    text-decoration: underline;
+}
+
+footer > p{
+    color: #172347;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+}
