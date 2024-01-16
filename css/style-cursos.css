@@ -1,0 +1,227 @@
+/* #cursos initial */
+
+#cursos{
+    text-align: center;
+    background-color: var(--cor-terciary);
+}
+
+.titulo{
+    color: #172347;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sub-titulo > h1{
+    color: #172347;
+    font-size: 1.7em;
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+
+.informacoes-cursos{
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.informacoes-cursos > div{
+    width: 92%;
+}
+
+.informacoes-cursos > div > p{
+    color: #263A74;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.informacoes-cursos > div > p > span{
+    color: #1c2a53;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.card-profession{
+    max-width: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-profession > .container{
+    width: 92%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #263A74;
+}
+
+.card-profession > .container > div > h1{
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+.card-profession > .container > div{
+    text-align: center;
+}
+
+.card-profession > .container > div > ul{
+    width: 100%;
+    text-align: center;
+}
+
+.card-profession > .container > div > ul > li{
+    color: #fff;
+    padding: 15px 0;
+    list-style: none;
+    display: flex;
+    text-align: justify;
+}
+
+.card-profession > .container > div > ul > li > p{
+    color: #fff;
+    padding: 10px 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.check{
+    margin-right: 10px;
+}
+
+.texto{
+    max-width: 2000px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto > div{
+    width: 93%;
+}
+
+.texto > div > p{
+    color: var(--cor-primary);
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 15px 0;
+}
+
+.coordenadores{
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Imagens dos Coordenadores*/
+
+#imgOne{
+    overflow: hidden;
+    max-width: 600px;
+    height: 330px;
+    max-height: 330px;
+    margin-bottom: 30px;
+    background-image: url("../img/Italo\ Linhares\ -\ Coordenador\ ADS.jpeg");
+    background-position: center;
+    background-size: cover;
+    /*-webkit-filter: grayscale(100%); filter: grayscale(100%); filter: gray;*/
+    box-shadow: 6px 6px 5px #263a7483;
+}
+
+#imgOne > p{
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--cor-secundary);
+    left: 100px;
+    bottom: 10px;
+}
+
+#imgTwo{
+    overflow: hidden;
+    max-width: 700px;
+    height: 330px;
+    max-height: 330px;
+    margin-bottom: 30px;
+    background-image: url("../img/Elisângela\ Rodrigues\ -\ Coordenadora\ de\ CD.jpeg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 5px #263a7483;
+}
+
+#imgTwo > p{
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--cor-secundary);
+    left: 100px;
+    bottom: 10px;
+} 
+
+#imgTree{
+    overflow: hidden;
+    max-width: 600px;
+    height: 330px;
+    max-height: 330px;
+    margin-bottom: 30px;
+    background-image: url("../img/Germano\ Fenner\ -\ Coordenador\ de\ SI.jpeg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 5px #263a7483;
+}
+
+#imgTree > p{
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--cor-secundary);
+    left: 100px;
+    bottom: 10px;
+}
+
+.coordenadores > .descrition{
+    width: 100%;
+    max-height: 330px;
+    padding: 10px 25px;
+}
+
+.coordenadores > .descrition > p{
+    color: var(--cor-primary);
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 5px 0;
+}
+
+.coordenadores > .descrition > span{
+    color: var(--cor-secundary);
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 870px){
+    .coordenadores{
+        display: flex;
+        padding: 60px;
+    }
+    .coordenadores > div{
+        max-width: 900px;
+        width: 500px;
+        height: 330px;
+    }
+    .coordenadores > .descrition{
+        text-align: center;
+        align-items: center;
+        max-width: 700px;
+    }
+}

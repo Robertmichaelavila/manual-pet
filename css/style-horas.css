@@ -1,0 +1,49 @@
+/* #horas initial*/
+
+#horas{
+    max-width: 1100px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--cor-terciary);
+}
+
+#horas > .descrition{
+    padding: 20px;
+}
+
+#horas > .descrition > h1{
+    color: #1e2c5a;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#horas > .descrition > p{
+    color: #1e2c5a;
+    font-size: 1.1em;
+    padding: 10px 10px 10px 30px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.descrition > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#horas > .descrition > div > ul{
+    margin-left: 30px;
+}
+
+#horas > .descrition > div > ul > li{
+    color: #263A74;
+    font-size: 1.1em;
+    padding:0;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: justify;
+}

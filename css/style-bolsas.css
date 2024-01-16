@@ -1,0 +1,32 @@
+/* #bolsas initial*/
+
+#bolsas{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-terciary);
+}
+
+#bolsas > div{
+    max-width: 1250px;
+}
+
+#bolsas > div > h1{
+    color: #172347;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#bolsas  > div > img{
+    margin-right: 10px;
+}
+
+#bolsas  > div > p{
+    color: #263A74;
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 10px 0;
+    text-align: justify;
+}
