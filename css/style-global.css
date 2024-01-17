@@ -71,7 +71,12 @@ header > div > h1{
 .navbar > ul > li{
     list-style: none;
 }
-.navbar > .logo,.nav-link{
+#logo{
+    font-size: 2rem;
+    font-weight: bold;
+    display: none;
+}
+.navbar > #logo,.nav-link{
     color:#fff;
     text-decoration: none;
 }
@@ -107,7 +112,10 @@ header > div > h1{
     background-color: #fff;
     transition: all 0.3s ease-in-out;
 }
-@media (max-width:768px){
+@media screen and (max-width:854px){
+    #logo{
+        display: block;
+    }
    .hamburguer{
        display: block;
    }
@@ -124,16 +132,16 @@ header > div > h1{
         min-height: 70px;
         display: flex;
         align-items: center;
-        justify-content: end;
+        justify-content: space-between;
         padding: 0 34px;
     }
     .nav-menu{
-        position: fixed;
+        position: absolute;
         left: -100%;
         top: 400px;
         gap: 0;
         border-radius: 0 0 20px 20px;
-        background-color: #101026;
+        background-color: #1e2c5a;
         text-align: center;
         flex-direction: column;
         width: 100%;
@@ -147,31 +155,19 @@ header > div > h1{
     }
 }
 
-
-
-/* #introdução inital */
-
-#introducao{
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    margin: 0px;
-    background-color: var(--cor-terciary);
-    border-bottom: 2px solid var(--cor-secundary);
-}
-
-#introducao > img{
-    width: 400px;
-    height: 300px;
-    margin: 10px;
-    transition-duration: .2s;
-}
-
-#introducao > p{
-    color: var(--cor-primary);
-    font-size: 1.3em;
-    font-weight: 500;
-    padding: 5px;
+@media (max-width:497px) and (min-width:360px){
+    .nav-menu{
+        position: absolute;
+        left: -100%;
+        top: 435px;
+        gap: 0;
+        border-radius: 0 0 20px 20px;
+        background-color: #101026;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+    }
 }
 
 

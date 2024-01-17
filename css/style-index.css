@@ -1,0 +1,87 @@
+#introducao{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor-terciary);
+}
+
+#introducao > div{
+    max-width: 1200px;
+    width: 100%;
+}
+
+#introducao > div > img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    transition-duration: .2s;
+}
+
+#introducao > div > p{
+    color: var(--cor-primary);
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#introducao > div > h1{
+    color: #1e2c5a;
+    font-size: 1.5em;
+    margin: 50px;
+}
+
+/**/
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    padding: 20px;
+    height: 300px;
+}
+
+.cards > div{
+    text-align: center;
+    margin: auto;
+}
+
+.cards > div > h1{
+    color: #1e2c5a;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.cards > div > p{
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 23px;
+    color: var(--cor-primary);
+}
+
+.blue > div > h1{
+    margin-bottom: 25px;
+    color: #e3e3e3;
+    font-size: 1.4em;
+}
+
+.blue > div > p{
+    color: var(--cor-terciary);
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.blue{
+    background-color: var(--cor-primary);
+}
