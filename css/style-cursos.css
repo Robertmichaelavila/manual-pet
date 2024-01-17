@@ -118,7 +118,7 @@
 .coordenadores{
     display: flex;
     justify-content: center;
-    padding: 20px 10px;
+    padding: 20px 20px;
     transition-duration: .5s;
 }
 
@@ -128,17 +128,18 @@
 }
 
 .imgCordenadores{
-    width: 400px;
+    width: 390px;
     max-width: 450px;
     align-items: center;
     border-radius: 3px;
     box-shadow: 4px 7px 14px -2px rgb(119, 119, 119);
     transition-duration: .2s;
+    margin-bottom: 10px;
 }
 
 .coordenadores > .container-flex > .descrition{
-    max-height: 350px;
-    padding: 10px 25px;
+    max-height: 370px;
+    padding: 0 25px;
 }
 
 .coordenadores > .container-flex > .descrition > h1{

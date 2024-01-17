@@ -10,6 +10,7 @@
 #centro-academico > .container{
     width: 100%;
     max-width: 1000px;
+    padding: 20px;
 }
 
 #centro-academico > .container > h1{
