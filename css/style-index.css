@@ -1,7 +1,7 @@
 #introducao{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 20px 10px 0px 10px;
     text-align: center;
     background-color: var(--cor-terciary);
 }
@@ -15,7 +15,6 @@
     width: 400px;
     height: 300px;
     margin: 10px;
-    transition-duration: .2s;
 }
 
 #introducao > div > p{
@@ -23,23 +22,14 @@
     font-size: 1.3em;
     font-weight: 500;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #introducao > div > h1{
     color: #1e2c5a;
     font-size: 1.5em;
-    margin: 50px 20px;
-    animation: pulse 2s infinite;
+    margin: 45px 20px 45px 20px;
 }
-
-@keyframes pulse{
-    25%{
-        scale: 1.1;
-    }
-}
-
-/**/
 
 .main{
     display: flex;
