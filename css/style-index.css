@@ -29,7 +29,14 @@
 #introducao > div > h1{
     color: #1e2c5a;
     font-size: 1.5em;
-    margin: 50px;
+    margin: 50px 20px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
+    25%{
+        scale: 1.1;
+    }
 }
 
 /**/
@@ -84,4 +91,12 @@
 
 .blue{
     background-color: var(--cor-primary);
+}
+
+#imgBackground > div > h1{
+    color: #fff;
+}
+
+#imgBackground > div > p{
+    color: #fff;
 }

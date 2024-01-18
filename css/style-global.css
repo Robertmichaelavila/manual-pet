@@ -155,7 +155,7 @@ header > div > h1{
     }
 }
 
-@media (max-width:497px) and (min-width:360px){
+@media (max-width:497px) and (min-width:370px){
     .nav-menu{
         position: absolute;
         left: -100%;

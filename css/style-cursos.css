@@ -128,7 +128,7 @@
 }
 
 .imgCordenadores{
-    width: 390px;
+    width: 350px;
     max-width: 450px;
     align-items: center;
     border-radius: 3px;
@@ -168,4 +168,19 @@
     .coordenadores > .container-flex{
         display: flex;
     }   
+}
+
+@media screen and (max-width: 393px) {
+    .imgCordenadores{
+        width: 250px;
+    }
+    .coordenadores > .container-flex > .descrition{
+        max-height: 450px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .coordenadores > .container-flex > .descrition{
+        max-height: 720px;
+    }
 }

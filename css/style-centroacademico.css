@@ -4,13 +4,12 @@
 #centro-academico{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 #centro-academico > .container{
     width: 100%;
     max-width: 1000px;
-    padding: 20px;
 }
 
 #centro-academico > .container > h1{
@@ -35,7 +34,7 @@
 }
 
 .cards > div > .img-centro-academico{
-    width: 380px;
+    width: 350px;
     max-width: 450px;
     align-items: center;
     border-radius: 3px;
@@ -72,4 +71,10 @@
     .cards > div{
         display: flex;
     }   
+}
+
+@media screen and (max-width: 393px) {
+    .cards > div > .img-centro-academico{
+        width: 260px;
+    }
 }
