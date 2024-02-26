@@ -1,4 +1,4 @@
-# Bem-vindo ao Projeto Campus Itapajé - Universidade Federal do Ceará (UFC)
+# Bem-vindo ao manual-pet - Universidade Federal do Ceará (UFC)
 
 Este é um projeto informativo dedicado a Universidade Federal do Ceará Campus Itapajé. Aqui, você encontrará uma fonte centralizada de informações sobre a instituição, seus cursos, bolsas e tudo o que você precisa saber para explorar o Campus Itapajé.
 
