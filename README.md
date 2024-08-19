@@ -1,4 +1,4 @@
-<img src="img/logo-pagina.png" alt="Logo da Universidade Federal do Ceará" width="200" height="220">
+<img src="img/Logo-ufc.png" alt="Logo da Universidade Federal do Ceará" width="200" height="220">
 
 # Bem-vindo ao Manual de Sobrevivência na UFC - Universidade Federal do Ceará (UFC)
 
