@@ -1,4 +1,6 @@
-# Bem-vindo ao manual-pet - Universidade Federal do Ceará (UFC)
+<img src="img/Logo-ufc.png" alt="Logo da Universidade Federal do Ceará" width="200" height="220">
+
+# Bem-vindo ao Manual de Sobrevivência na UFC - Universidade Federal do Ceará (UFC)
 
 Este é um projeto informativo dedicado a Universidade Federal do Ceará Campus Itapajé. Aqui, você encontrará uma fonte centralizada de informações sobre a instituição, seus cursos, bolsas e tudo o que você precisa saber para explorar o Campus Itapajé.
 
@@ -26,4 +28,4 @@ Agradecemos antecipadamente por seu interesse e contribuição para tornar este 
 Robert Michael - Web Developer 
 
 ## Link para Visualizar o Projeto
-- `https://robertmichaelavila.github.io/manual-pet/`
+<a href="https://robertmichaelavila.github.io/manual-pet/index.html" target="_blank">Manual de Sobrevivência na UFC</a>
